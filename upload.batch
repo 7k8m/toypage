@@ -1,1 +1,2 @@
 put index.html /var/www/html
+put main.css /var/www/html
