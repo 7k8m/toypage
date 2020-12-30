@@ -1,5 +1,2 @@
 put index.html /var/www/html
 put main.css /var/www/html
-put bug-min.js /var/www/html
-put fly-sprite.png /var/www/html
-put spider-sprite.png /var/www/html
