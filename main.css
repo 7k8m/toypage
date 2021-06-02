@@ -12,3 +12,19 @@ h1 {
 }
 
 #mapid { height: 400px; }
+
+.others {
+  display: flex;
+}
+
+.scribble {
+  width: 300px;
+}
+
+.map {
+  flex: 1;
+}
+
+.wave {
+  width: 300px;
+}
