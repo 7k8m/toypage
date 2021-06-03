@@ -11,14 +11,14 @@ h1 {
   fill: currentColor;
 }
 
-#mapid { height: 400px; }
+#mapid { height: 40rem; }
 
 .others {
   display: flex;
 }
 
 .scribble {
-  width: 300px;
+  width: 15rem;
 }
 
 .map {
@@ -26,5 +26,5 @@ h1 {
 }
 
 .wave {
-  width: 300px;
+  width: 15rem;
 }
