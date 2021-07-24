@@ -9,7 +9,10 @@
  	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
-
+   <script type="module">
+    import "https://cdn.plot.ly/plotly-2.3.0.min.js"
+    Plotly.newPlot("gd", [{ y: [1, 2, 3] }])
+	</script>
 </head>
 <body>
 	<h1>Hello, world !</h1>
@@ -154,6 +157,7 @@
 				</figure>
 				</p>			
 		</div>
+		<div id="gd" class="plot"></div>
 	</div>
 	<svg>
 		<symbol id="icon-pencil" viewBox="0 0 32 32">
