@@ -1,34 +1,3 @@
 h1 {
 	font: 24px monospace;	
 }
-
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-#mapid { height: 40rem; }
-
-.others {
-  display: flex;
-}
-
-.scribble {
-  width: 15rem;
-}
-
-.map {
-  flex: 1;
-}
-
-.wave {
-  width: 15rem;
-}
-
-.plot {
-  width: 15rem;
-}
